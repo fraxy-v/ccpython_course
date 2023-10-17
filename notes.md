@@ -1,7 +1,7 @@
 ## Basic Python Notes
 
 1. Hello world program
-1. Program flow
+1. Program flow 
    - Program draw tree
    - Python runs line by line:
    - expression - a piece of code that produces a value
@@ -119,7 +119,8 @@
    - Question: Define a set with three equal values. Can you unpack it to three different variables?
    - Exercise: Similar to above. Collect all unique elements from a list to into a set.
    - Similar to set. Dictionary stores information as pairs of (unique!) key and value.
-   - Dictionary is a collection of data that are very useful because can represent real world entities.
+   - Dictionary is a collection of data, useful because can represent real world entities.
+   - Question: Can we have keys of different types?
    - Access with '[]', throws a key error if no such key.
    - '[]' can be used to define a new key value pair however.
    - `get` method doesn't throw, returns a `None` object or default value.

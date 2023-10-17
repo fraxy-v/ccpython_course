@@ -114,7 +114,8 @@
     - Unpacking of tuple: `x,y,z = coordinates`
     - Question: Can you unpack a list?
 7. Set and Dictionary
-   - Set is a collection of unique values. Defined with '{}' rather than '[]' or '()'
+   - Set is a collection of unique values. Defined with '{}' rather than '[]' or '()'.
+   - Question: What is the type of a variable defined with empty '{}'? For empty sets call `set()`.
    - Question: Define a set with three equal values. Can you unpack it to three different variables?
    - Exercise: Similar to above. Collect all unique elements from a list to into a set.
    - Similar to set. Dictionary stores information as pairs of (unique!) key and value.

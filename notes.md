@@ -159,7 +159,22 @@
    - We can have many `except` blocks for each error type
    - Exercise: compute chance to go to Mars by a formula (1/age)
    - If no error in `except` is specified, we catch all errors.
-10. Classes
+10. Modules revisited
+    - Module: A file with python code.
+    - Modules are used to organize the program source code into files. Each files contains functionality that is logically grouped together
+    - Also we can reuse code by importing modules in different parts of the project.
+    - Exercise: write two functions for converting pounds to kg and vice versa in a module and import from another py file
+    - Import specific functions from a module
+    - A package is a container for multiple modules. It's basically a folder with files (modules).
+    - It contains a special python file `__init__.py`
+    - Exercise: add a new directory move the converter module and import from another python file.
+    - Exercise: try importing the whole module, a function, a list of functions
+11. Misc
+   - Google: 'python 3 module index'
+   - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", `open()` - reading and writing
+   - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
+   - Regular expressions.
+12. Classes
    - Classes are used to define new types. Data + methods for handle the data
    - `class` keyword
    - `def` keyword for defining methods
@@ -170,18 +185,3 @@
    - We are initializing attributes to the current object using `self`
    - We can inherit classes, parent class put in '()'
    - Methods and attributes of the parent are passed to the new type
-11. Modules revisited
-    - Module: A file with python code.
-    - Modules are used to organize the program source code into files. Each files contains functionality that is logically grouped together
-    - Also we can reuse code by importing modules in different parts of the project.
-    - Exercise: write two functions for converting pounds to kg and vice versa in a module and import from another py file
-    - Import specific functions from a module
-    - A package is a container for multiple modules. It's basically a folder with files (modules).
-    - It contains a special python file `__init__.py`
-    - Exercise: add a new directory move the converter module and import from another python file.
-    - Exercise: try importing the whole module, a function, a list of functions
-12. Misc
-   - Google: 'python 3 module index'
-   - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", `open()` - reading and writing
-   - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
-   - Regular expressions.

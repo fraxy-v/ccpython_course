@@ -51,7 +51,7 @@
    - methods in the module are accessed with the `.` operator
    - Question: `math.ceil`; `math.floor`; `math.fabs` vs `abs`
    - Exercise: google "python 3 math module", spend 5 min browsing through the functions
-2. `if` statement
+1. `if` statement
    - code block refers to a collection of code that is in the same block or indent. This is most commonly found in classes, functions, and loops.
    - Exercise: if `is_hot` output that "It's a hot day". On new line: "Drink plenty of water." Else if its `is_cold` output "It's a called day. Wear warm clothes." Otherwise output "It's a lovely day." And finally "Enjoy your day."
    - logical and operator : combining two conditions, both have to be `true`, example `is_sunny` and `is_average_temperature`
@@ -62,7 +62,7 @@
    - Exercise: same as above but with temperature
    - Exercise: input name. `if len < 3` output invalid name, too short, `if len > 30` print invalid name, too long, otherwise valid
    - Exercise: Enter weight. Answer Question (L)bs or (K)gs? and convert to the other, should not be case sensitive.
-3. While loop
+1. While loop
    - Loops are used to execute a block of code multiple times
    - In the while loop the block is executed as long as the condition is `True`
    - Example: print `i` from 1 to 5
@@ -73,7 +73,7 @@
    - Loops can have `else`
    - Exercise: Build a guessing game. (use `random.randrange(1, 10)`)
    - Exercise: Build a car game (commands: start, stop, help, quit)
-4. For loop
+1. For loop
     - More convenient to iterate over items in a collection
     - Loop variable: holds item for the current iteration
     - Example: `for character in 'Python'`...
@@ -84,7 +84,7 @@
     - Exercise: Nested loops, chess board coordinates
     - Exercise: Step through the nested loops
     - Exercise: Write the letter F with numbers
-5. Lists
+1. Lists
     - Exercise: define a list of names and print it in the terminal
     - Individual elements can be accessed with indexing (remember negative indices?)
     - Slicing, selecting a range
@@ -103,7 +103,7 @@
     - `sort`, `reverse` methods
     - Question: Assign the list to another variable and modify an element. Does it affect the list? Now try `copy` method.
     - Exercise: Collect duplicates from one list in another list
-6. Tuple
+1. Tuple
     - Similar to list, storing a list of items. Defined with '()' unlike list '[]'
     - But tuples are immutable.
     - Question: Define a tuple. Check the methods of a tuple. Do we have `append`, `insert`
@@ -126,7 +126,7 @@
    - `get` method doesn't throw, returns a `None` object or default value.
    - Exercise: Convert a number to words
    - Exercise: Emoji converter (use split method, converts string to list, '\U0001F642' smiling face, '\U0001F641')
-8. Functions
+1. Functions
    - We need functions to: reuse code and for readability (to break the code into manageable chunks)
    - A function is a way to contain code that performs a specific task
    - Question: which built-in functions do you remember? What is the purpose of each of these functions?
@@ -150,7 +150,7 @@
    - Functions can also return values with `return` statement.
    - Exercise: write a function that computes the square of a number
    - Exercise: extract the emoji converter code into a function
-9. Exceptions
+1. Exceptions
    - Question: Write a program that asks for the age of the user and converts it to `int`. What is the exit code of the program? What if we enter invalid number?
    - We should anticipate errors and handle them, don't let the program crash
    - Use `try-except` construct to handle errors
@@ -159,7 +159,7 @@
    - We can have many `except` blocks for each error type
    - Exercise: compute chance to go to Mars by a formula (1/age)
    - If no error in `except` is specified, we catch all errors.
-10. Modules revisited
+1. Modules revisited
     - Module: A file with python code.
     - Modules are used to organize the program source code into files. Each files contains functionality that is logically grouped together
     - Also we can reuse code by importing modules in different parts of the project.
@@ -169,12 +169,12 @@
     - It contains a special python file `__init__.py`
     - Exercise: add a new directory move the converter module and import from another python file.
     - Exercise: try importing the whole module, a function, a list of functions
-11. Misc
+1. Misc
    - Google: 'python 3 module index'
    - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", `open()` - reading and writing
    - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
    - Regular expressions.
-12. Classes
+1. Classes
    - Classes are used to define new types. Data + methods for handle the data
    - `class` keyword
    - `def` keyword for defining methods

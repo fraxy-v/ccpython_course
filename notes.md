@@ -169,11 +169,12 @@
     - It contains a special python file `__init__.py`
     - Exercise: add a new directory move the converter module and import from another python file.
     - Exercise: try importing the whole module, a function, a list of functions
-1. Misc
-   - Google: 'python 3 module index'
-   - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", `open()` - reading and writing
+    - Google: 'python 3 module index'
+    - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern"
+1. File I/O
+   - `open()` function - reading and writing
    - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
-   - Regular expressions.
+1. Regular expressions
 1. Classes
    - Classes are used to define new types. Data + methods for handle the data
    - `class` keyword

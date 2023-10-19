@@ -160,7 +160,7 @@
    - Exercise: compute chance to go to Mars by a formula (1/age)
    - If no error in `except` is specified, we catch all errors.
    - Rasing errors with `raise`
-   - Exercise: write chance-to-visit function and raise `ValueError` if age not a number or is negative/zero
+   - Exercise: write chance-to-visit function and raise `ValueError` if age not a number or is negative/zero (use `isinstance(var, type)`)
 1. Modules revisited
     - Module: A file with python code.
     - Modules are used to organize the program source code into files. Each files contains functionality that is logically grouped together

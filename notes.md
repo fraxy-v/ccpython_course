@@ -173,9 +173,13 @@
     - Exercise: create and import a "greeting" module, from a "messages" package. Test importing package and specific module.
     - Google: 'python 3 module index'
     - pathlib module, Path methods: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", iteratable result
+    - pytest, unit tests
 1. File I/O
-   - `open()` function - reading and writing
-   - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
+   - `open()` function - read/write stream depending on the mode.
+   - reading methods: `read()`, `readline()`, `readlines()`
+   - writing methods: `write()`, `writelines()`
+   - Files must be closed: simulate crash with `os._exit(1)` and see how the change is lost.
+   - same example with `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
 1. Regular expressions
 1. Classes
    - Classes are used to define new types. Data + methods for handle the data

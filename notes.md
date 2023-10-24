@@ -24,7 +24,7 @@
 1. Strings:
    - ' inside string use ", " inside string use '
    - ''' for multiline strings
-   - + operator, * int
+   - `+operator`, `*operator`, int
    - indexing [], negative index!!
    - slicing with `:`, e.g. `[0:3]`, excludes last, start index and end index if missed
    - Question: what is the result of `[1:-1]`
@@ -173,7 +173,6 @@
     - Exercise: create and import a "greeting" module, from a "messages" package. Test importing package and specific module.
     - Google: 'python 3 module index'
     - pathlib module, Path methods: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", iteratable result
-    - pytest, unit tests
 1. File I/O
    - `open()` function - read/write stream depending on the mode.
    - reading methods: `read()`, `readline()`, `readlines()`
@@ -181,6 +180,24 @@
    - Files must be closed: simulate crash with `os._exit(1)` and see how the change is lost.
    - same example with `with` statement: makes sure that a file handle is closed `with open('filename') as f:`
 1. Regular expressions
+   - RegEx: Expressions for patterns in text
+   - Can be used for validation and matching of certain formats and limitations
+   - Same can be achieved with if-else statements and loops with a lot of verbosity
+   - RegEx are shorter but often more convoluted, complicated and harder to read. Error-prone.
+   - regex101.com
+   - re module
+   - `re.compile(<pattern>)` for compiling a pattern that can be used in matches and searches
+   - Example: upper case word, use anchors
+   - difference between `match` and `search`: `match` only looks for matches from the beginning of the string
+   - Exercises: extend the pattern to include lower case letters. How do you include an empty space?
+   - Example: "^[a-z]{3}[0-9]{3,5}[^a-zA-Z0-9]{1}[A-Z]{0,2}$"
+   - Alternatives: \w, \d, \W \D \s \S, *, +, ?
+   - Exercise: match an email address
+   - `finditer` method to iterate through matches
+   - (|) - group of alternatives, Example: match Mr Ms or Mrs Name
+   - Capture information from groups, Example: match urls https:://www.google.com, https://youtube.com, http://zamunda.se
+   - `group` method of `match`
+   - `findall` returns a list of matches for each group, tuple for many groups
 1. Classes
    - Classes are used to define new types. Data + methods for handle the data
    - `class` keyword

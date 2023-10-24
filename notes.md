@@ -161,18 +161,18 @@
    - If no error in `except` is specified, we catch all errors.
    - Rasing errors with `raise`
    - Exercise: write chance-to-visit function and raise `ValueError` if age is negative/zero
-1. Modules revisited
+1. Modules
     - Module: A file with python code.
     - Modules are used to organize the program source code into files. Each files contains functionality that is logically grouped together
     - Also we can reuse code by importing modules in different parts of the project.
     - Exercise: write two functions for converting pounds to kg and vice versa in a module and import from another py file
-    - Import specific functions from a module
+    - Import specific functions from a module: `form <module> import <func>`
+    - Exercise: create and import `max_number` module.
     - A package is a container for multiple modules. It's basically a folder with files (modules).
     - It contains a special python file `__init__.py`
-    - Exercise: add a new directory move the converter module and import from another python file.
-    - Exercise: try importing the whole module, a function, a list of functions
+    - Exercise: create and import a "greeting" module, from a "messages" package. Test importing package and specific module.
     - Google: 'python 3 module index'
-    - pathlib module: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern"
+    - pathlib module, Path methods: `absolute()`, `exist()`, `mkdir()`, `rmdir()`, `glob()` - "accepts search pattern", iteratable result
 1. File I/O
    - `open()` function - reading and writing
    - `with` statement: makes sure that a file handle is closed `with open('filename') as f:`

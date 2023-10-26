@@ -200,12 +200,20 @@
    - `findall` returns a list of matches for each group, tuple for many groups
 1. Classes
    - Classes are used to define new types. Data + methods for handle the data
-   - `class` keyword
-   - `def` keyword for defining methods
-   - Example: define a new Point type with 'move' and 'draw' methods
-   - add attributes the objects by simply initializing them
+   - `class` keyword, e.g. `class Point:`
+   - `def` keyword for defining methods, e.g. `def move(self):`
+   - `self` reference to a particular instance inside the methods.
+   - Example: define a new Point type with 'move' and 'draw' methods, prints to simulate action
+   - Instance: an object of a given type, e.g. `point1 = Point()`
+   - Question: what are the methods avaiable for the defined object?
+   - Atrributes: act like variable belonging to a particular object.
+   - Add attributes the objects by simply initializing them, e.g. `point.x = 4`
+   - Exercise: print the attributes of the object, print the attribute of another object.
    - Constructor: a function that is called when creating a object
-   - `def __init__` to define a custom constructor
-   - We are initializing attributes to the current object using `self`
+   - `def __init__` to define a custom constructor, e. g. `def __init__(self, x, y)`
+   - Inside ctor, we are initializing attributes to the current object using `self`
+   - Exercise: Define type Person with name attribute and method talk.
    - We can inherit classes, parent class put in '()'
    - Methods and attributes of the parent are passed to the new type
+   - Example: class Mammal, class Dog, class Cat, share walk method
+   - `pass` statement for derived classes without extra definitions.

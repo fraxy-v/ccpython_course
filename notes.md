@@ -72,7 +72,7 @@
    - Break and Continue statements: skip steps with `continue`, `break` loop
    - Loops can have `else`
    - Exercise: Build a guessing game. (use `random.randrange(1, 10)`)
-   - Exercise: Build a [car game](#cargame) (commands: start, stop, help, quit) 
+   - Exercise: Build a <a name="cargame">car game</a> (commands: start, stop, help, quit) 
 1. For loop
     - More convenient to iterate over items in a collection
     - Loop variable: holds item for the current iteration

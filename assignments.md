@@ -59,7 +59,7 @@ Complete the [script](https://github.com/fraxy-v/ccpython_course/blob/master/dat
 
 #### Assignment 12
 
-Use Python with the queue system on `node1` (62.44.108.40) while acquainting yourself with the modules `os` and `sys`.
+For the next task, use Python with the queue system on `node1` (62.44.108.40) while acquainting yourself with the modules `os` and `sys`.
 
 As an alternative to the bash [script](https://github.com/fraxy-v/ccpython_course/blob/master/data/pbs_g16.sh) that is used for running Guassian jobs, complete the python [script](https://github.com/fraxy-v/ccpython_course/blob/master/data/pbs_fibonacci.py) to compute and print the first N [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_sequence) with the help of a `for` loop.
 
@@ -125,4 +125,4 @@ The python script must submit those bash scripts to the queue. That can be done 
 os.popen("qsub my_bash_script.sh")
 ```
 
-Explanation: Why do we want to submit a bash script instead of a python script as we do in the previous exercise? That's because not all nodes have Python installed so by tweaking the parameters `#PBS -lnodes=1:ppn=8:RAM32GB,walltime=1440:00:00` we might end up on a node that will return an error.
+Note: Not all nodes have python installed. When using the parameters `#PBS -lnodes=1:ppn=8:RAM32GB` we essentially request a node that can run a python script.

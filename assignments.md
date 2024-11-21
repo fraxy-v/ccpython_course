@@ -124,5 +124,3 @@ The python script must submit those bash scripts to the queue. That can be done 
 ```
 os.popen("qsub my_bash_script.sh")
 ```
-
-Note: Not all nodes have python installed. When using the parameters `#PBS -lnodes=1:ppn=8:RAM32GB` we essentially request a node that can run a python script.
